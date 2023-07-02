@@ -57,8 +57,14 @@ button{
 ul li{
     list-style: none;
     font-size: 20px;
+    margin: 8px;
     padding: 6px 5px 6px 50px;
     position: relative;
+    border: 0.5px solid lightblue;
+    border-radius: 20px;
+}
+ul li:hover{
+    box-shadow: 5px 5px lightblue;
 }
 ul li::before{
     content: '';
